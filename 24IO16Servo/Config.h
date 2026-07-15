@@ -29,7 +29,7 @@
 // Allow direct to JMRI via USB, without CAN controller, comment out for CAN
 
 //#define USEGCSERIAL
-//#define NOCAN  // prevent the built in OpenLCB CAN drivers
+#define NOCAN  // prevent the built in OpenLCB CAN drivers
 
 #include "boards.h"
 
